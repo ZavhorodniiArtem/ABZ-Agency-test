@@ -1,0 +1,38 @@
+.nav {
+
+  background-color: #ffffff;
+
+  .container {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  &__logo {
+    padding: 17px 0;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+  }
+
+  .ant-anchor {
+    display: flex;
+    a {
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.87);
+    }
+  }
+
+  &__users {
+    padding: 4px 29px;
+    margin-right: 10px;
+  }
+
+  &__signup {
+    padding: 4px 22px 4px 23px;
+  }
+
+}

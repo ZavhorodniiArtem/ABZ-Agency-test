@@ -1,0 +1,40 @@
+.user {
+
+  &__card {
+    background-color: #ffffff;
+    width: 370px;
+    height: 254px;
+    border-radius: 10px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Nunito";
+  }
+
+  &__photo {
+    width: 69px;
+    height: 69px;
+    margin-top: 20px;
+    border-radius: 50%;
+
+  }
+
+  &__name {
+    padding: 20px 20px 0 20px;
+  }
+
+  &__email {
+    padding: 0 20px;
+  }
+
+  &__position {
+    padding: 20px 20px 0 20px;
+  }
+
+  .ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+}
